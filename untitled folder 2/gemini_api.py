@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 from gtts import gTTS
 from api_key_secret import *
-
+# api_key="Your_api_Key"
 genai.configure(api_key=API_KEY)
 
 # Generate content using the model
